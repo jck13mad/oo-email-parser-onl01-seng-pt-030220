@@ -7,7 +7,6 @@
 class EmailParser
   
   attr_accessor :name, :csv_emails
-  new_array = []
   
   def intialize(csv_emails)
     @csv_emails = csv_emails
