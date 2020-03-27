@@ -6,14 +6,14 @@
 
 class EmailParser
   
-  attr_accessor :name, :csv_emails
+  attr_accessor :csv_emails
   
   def intialize(csv_emails)
     @csv_emails = csv_emails
   end
   
   def parse
-    puts splitEmail = 
+    puts splitEmail = csv_emails
   end
   
 end
