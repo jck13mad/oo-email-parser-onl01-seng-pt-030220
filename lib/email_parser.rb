@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     csv_emails.split.collect do |address|
-      new_array << address.split(",")
+      new_array = 
     end
     .flatten.uniq
   end
